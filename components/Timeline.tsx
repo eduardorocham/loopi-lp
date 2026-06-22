@@ -64,7 +64,6 @@ export default function Timeline() {
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center text-white text-xs font-bold mb-4 shadow-lg shadow-blue-600/20 z-10 border-4 border-white">
                   {i + 1}
                 </div>
-                <p className="text-xs font-semibold text-blue-600 mb-1">{step.period}</p>
                 <p className="font-bold text-[#0F172A] mb-1 text-sm">{step.title}</p>
                 <p className="text-xs text-[#64748B] leading-relaxed">{step.desc}</p>
               </div>
@@ -85,7 +84,6 @@ export default function Timeline() {
                 )}
               </div>
               <div className="pb-8">
-                <p className="text-xs font-semibold text-blue-600 mb-0.5">{step.period}</p>
                 <p className="font-bold text-[#0F172A] mb-1">{step.title}</p>
                 <p className="text-sm text-[#64748B] leading-relaxed">{step.desc}</p>
               </div>
