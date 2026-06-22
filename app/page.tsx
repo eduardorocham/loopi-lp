@@ -8,6 +8,7 @@ import Solution from "@/components/Solution";
 import UseCases from "@/components/UseCases";
 import Differentials from "@/components/Differentials";
 import Timeline from "@/components/Timeline";
+import Integrations from "@/components/Integrations";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import Modal from "@/components/Modal";
@@ -23,6 +24,7 @@ export default function Home() {
         <Problem />
         <Solution />
         <UseCases />
+        <Integrations />
         <Differentials />
         <Timeline />
         <FinalCTA onOpenModal={() => setModalOpen(true)} />
